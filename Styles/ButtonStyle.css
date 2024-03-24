@@ -36,4 +36,14 @@ a:active {
     color: rgb(128, 255, 0);
 }
 
-
+.musicButton {
+    position: fixed;
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    background-color: black;
+    color: white;
+    border: 0;
+    object-fit: cover;
+}
