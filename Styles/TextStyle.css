@@ -1,0 +1,20 @@
+
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.Backgroundvideo {
+    position: fixed;
+    opacity: 0.5;
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.gifStyle {
+    margin: 5px;
+}

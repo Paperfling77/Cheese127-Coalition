@@ -1,0 +1,39 @@
+button {
+    cursor: pointer;
+    border: none;
+}
+.AwesomeButton {
+    background-color: rgb(0, 175, 175); 
+    color: rgb(255, 255, 255); 
+    height: 36px;
+    border-radius: 8px;
+    margin: 4px;
+    transition: background-color 0.15s,
+        color 0.15s,
+        box-shadow 0.5s;
+}
+
+.AwesomeButton:hover {
+    background-color: rgb(0, 255, 179); 
+    color: rgb(73, 73, 73); 
+    box-shadow: 0 0px 30px rgba(255, 255, 255, 0.5);
+}
+.AwesomeButton:active {
+    background-color: rgb(128, 255, 0); 
+}
+
+a:link {
+    color: rgb(0, 175, 175);
+    transition: 0.15s;
+}
+a:visited {
+    color: rgb(0, 175, 175);
+}
+a:hover {
+    color: rgb(0, 255, 179);
+}
+a:active {
+    color: rgb(128, 255, 0);
+}
+
+
