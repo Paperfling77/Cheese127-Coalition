@@ -8,15 +8,8 @@
     <link rel="icon" type="image/x-icon" href="Media/cheeseHeadshot.png">
     <link rel="Stylesheet" href="Styles/ButtonStyle.css">
     <link rel="Stylesheet" href="Styles/TextStyle.css">
-    <style>
-        .CheeseIcon1 {
 
-            display: inline;
-            object-fit: contain;
-            width: 100px;
-            position: relative;
-            top: 20px;
-        }
+    <style>
 
     </style>
 
@@ -25,7 +18,7 @@
 
 <body style="background-color: rgb(0, 0, 0);">
     <div>
-        
+        <!--
         <div class="InitialDiv">
 
             <audio id="BGMusic" src="Media/SESSIONDORF.mp3" autoplay loop></audio>
@@ -37,72 +30,18 @@
               
               
         </div>
-    
-        <div class="topBar">
-            <a href="page2.html" target="_parent">
-                <button class="MenuButton"><b>Page2</b></button>
-            </a>
-        </div>
-
+    -->
         <div class="mainDiv">
 
-            <h1>Cheese127 Coalition</h1>
-            <h2>
-                <img class="CheeseIcon1" src="Media/cheeseGangnamTransparent.gif">
-                Welcome
-                <img class="CheeseIcon1" src="Media/cheeseGangnamTransparent.gif">
-            </h2>
-            <p>
-                The time for expansion is <b>NOW.</b>
-            </p>
-
-            <img src="Media/cheese127Banner.gif"> 
-           
-
-
-            <hr width="200px">
-
-            <a href="https://www.roblox.com/users/31259418/profile" target="_blank">
-                <button class="AwesomeButton"><b>Profile</b></button>
-            </a><br>
-            <a href="https://www.roblox.com/groups/5431445/Cheese127-Coalition#!/about" target="_blank">
-                <button class="AwesomeButton"><b>Group</b></button>
-            </a><br>
-
-            <iframe src="https://discord.com/widget?id=1326438785822621776&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-            
-            <hr width="200px">
-
-            <img class="gifStyle" src="Media/HackerMoneyFast.gif"> <img class="gifStyle"
-                src="Media/HackerMoneyFast.gif"> <img class="gifStyle" src="Media/HackerMoneyFast.gif">
+            <h1> This is Page 2</h1>
 
         </div>
 
         <div class="backDiv">
-            <video id="BGvideo" class="Backgroundvideo" src="Media/Intro2.mp4" loop muted></video>
+            <video id="BGvideo" class="Backgroundvideo" src="Media/Intro2.mp4" loop autoplay muted></video>
         </div>
 
     </div>
 </body>
-
-<script>
-    var aud = document.getElementById("BGMusic");
-    var vid = document.getElementById("BGvideo")
-    var audBtn = document.getElementById("BGMusicBtn");
-    var isPlaying = false;
-    aud.pause();
-  
-    function playPause() {
-      if (isPlaying) {
-        
-      } else {
-        aud.play();
-        vid.play();
-        audBtn.hidden = true;
-      }
-      isPlaying = !isPlaying;
-    }
-  </script>
-
 
 </html>
